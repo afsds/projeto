@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #d60000;
+}
+
+.navbar{
+    background-color: rgb(255, 0, 0);
+}
+.navbar-link-active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+.nav,.nav-link,
+.navbar-brand,
+.navbar-brand-hover
+.nav-elenco .nav-link.active:hover{
+    color: #ffffff;
+}
+.navbar-brand{
+    font-family: sans-serif;
+}
+.navbar-toggler{
+    background-color: #ffffff;
+}
+.section-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-title span{
+    color: #d60000; 
+}
+#sobre-o-time{
+    background-color: rgb(255, 154, 154);
+}
+.nav-elenco .nav-link.active{
+background-color: #d60000;
+color: beige;
+}
+.nav-elenco .nav-link :hover{
+    color: #d60000;
+}
+#eventos{
+    background-color: rgb(255, 145, 145);
+}
+#elenco{
+    background-color: rgb(245, 172, 172);
+}
+#contato{
+    background-color: rgb(255, 197, 197);
+}
+ header img{
+    width: 6cap;
+}
+#elenco img{
+    width: 14cap;
+}
+p{
+    color: beige;
+}
+.social-links li{
+ list-style: none;
+ display: inline;
+}
+
+@media(max-width: 760px){
+    .carousel-item-img{
+        height: 280px;
+    }
+}
